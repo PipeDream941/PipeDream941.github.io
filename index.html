@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Zhong Siyao">
+    <meta name="description" content="Zhong Siyao self introduction">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mid term project</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the side navigation */
+        .sidenav {
+            height: 100%;
+            width: 170px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+        }
+
+
+        /* Side navigation links */
+        .sidenav a {
+            color: white;
+            padding: 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color on hover */
+        .sidenav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Style the content */
+        .content {
+            margin-left: 200px;
+            padding-left: 20px;
+        }
+
+        .mume-header1 {
+            font-size: 30px;
+            background-color: blanchedalmond;
+            text-align: center;
+
+        }
+
+        .mume-header2 {
+            font-size: 17px;
+            background-color: black;
+            color: white
+        }
+
+        .logo {
+            width: 15px;
+            height: 15px;
+        }
+
+        .name {
+            padding: 16px;
+            color: white;
+            text-align: center;
+            letter-spacing: 3px;
+        }
+
+        .intro {
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div class="sidenav">
+        <div class="name">
+            <b>Siyao</b>
+        </div>
+        <div id="outline">
+
+            <ul>
+                <li><a class="l" href="#intro" data-dest-detail='[1,"XYZ",0,704.25,null]'>Intro</a></li>
+                <li><a class="l" href="#hobby" data-dest-detail='[1,"XYZ",0,479.51,null]'>Hobby</a>
+                    <ul>
+                        <li><a class="l" href="#billiards" data-dest-detail='[1,"XYZ",0,447.34,null]'>Billiards</a></li>
+                        <li><a class="l" href="#game" data-dest-detail='[1,"XYZ",0,367.65,null]'>Game</a></li>
+                    </ul>
+                </li>
+                <li><a class="l" href="#awards" data-dest-detail='[1,"XYZ",0,479.51,null]'>Awards</a>
+            </ul>
+        </div>
+    </div>
+    <div class="content" ,id="page-container">
+        <div class="intro">
+            <img src="images/pic1.jpg" alt="siyao" , style="width:400px"><br>
+            <b>Zhong Siyao</b>
+
+
+        </div>
+
+
+
+        <h2 class="mume-header1" id="intro">Self-Introduciotn</h2>
+
+        <p>I was born in Lanzhou, Gansu Province, China, which is famous for the Yellow River, mutton and beef noodles.
+        </p>
+
+        <p>I studied at the University of International Business and Economics in Beijing as an undergraduate, majoring
+            in e-commerce and minoring in finance.</p>
+        <p>In college, I participated in debate teams, and joined entrepreneurship counseling centers. Here I met good
+            friends and learned about some startups.</p>
+        <p>Meanwhile, I and my classmates often volunteered and we created a hospice program to take care for children
+            who are seriously ill.</p>
+        <p>Because I was exposed to programming courses at university, I was very interested in computers, so I applied
+            for IT at the graduate level.</p>
+        <h2 class="mume-header1" id="hobby">Hobby</h2>
+
+        <h3 class="mume-header2" id="billiards">billiards</h3>
+
+        <p>After graduating from university, I was introduced to billiards on the recommendation of my friends, and I
+            was fascinated by this sport and studied for about three months.<br>
+            Although I have not entered the billiard hall for a long time due to the covid19, but I will continue to
+            study
+            in the future.</p>
+        <h3 class="mume-header2" id="game">Game</h3>
+
+        <p>I do love to play games. Games have been a part of my life since my father bought me my first PSP in
+            elementary school.
+            As for game types, compared to PVP games like LOL and CSGO that most players like, 
+            I prefer single player games and independent game. 
+            The game I spent the most time on was Age of Empires, 
+            a <abbr title="Real-Time Strategy Game">RTS</abbr> game produced by Microsoft. My favorite
+            types of games are <abbr title="Action Game">ACT</abbr>, <abbr title="Action Role Playing Game">ARPG</abbr>,
+            <abbr title="Text Adventure Game">AVG</abbr>, etc
+        </p>
+
+        <!-- <img src="images/steam.png" ,alt="steam" ,width="15",height="15"> -->
+
+
+        <h2 class="mume-header1" id="awards">Awards</h2>
+        <ul>
+            <li>2021, Second Prize, <a href="https://www.dajiangsai.org" target="_blank">National Internet Software
+                    Design Competition for
+                    Undergraduates</a></li>
+            <li>2021, Third Prize, <a href="https://www.3chuang.net" target="_blank">National Challenge Competition of
+                    E-commerce</a></li>
+            <li>2021, First Prize, <a href="https://cy.ncss.cn" target="_blank">National "Internet +" Innovation
+                    Competition</a> </li>
+            <li>2020, Second Prize, <a href="https://www.jsjds.com.cn" target="_blank">National Computer Design
+                    Competition</a></li>
+        </ul>
+
+    </div>
+</body>
+
+</html>
